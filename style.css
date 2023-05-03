@@ -70,8 +70,9 @@
 
 .modal{
     width: 700px;
-    height: 400px;
+    height: 170px;
     background-color: white;
+    border-radius: 20px;
 }
 
 ._none{
@@ -88,4 +89,33 @@
     width:fit-content;
     height: 30px;
     line-height: 20%;
+    cursor: pointer;
+}
+
+.modal__top{
+    height: 50px;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.modal__rotate{
+    width: 40px;
+    transform: translateY(3px);
+    cursor: pointer;
+}
+
+.modal__rotate img{
+    width: 25px;
+}
+
+.modal__part{
+    width: calc(50% - (25px / 2));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 500;
+    font: optional;
+    overflow-x: hidden;
 }
